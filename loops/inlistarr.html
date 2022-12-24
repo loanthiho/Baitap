@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>phuong xau gai nhat lop 24b</p>
+    <p id="demo"></p>
+    <script >
+        var fruit,text,flen,i;
+        fruit=["banana","Orange","mango","kikyu"];
+        flen=fruit.length;
+        text="<ul>";
+        for(i=0;i<flen;i++){
+            text+="<li>"+fruit[i]+"</li>";
+        }
+        text+="</ul>";
+        document.getElementById("demo").innerHTML=text;
+    </script>
+</body>
+</html>

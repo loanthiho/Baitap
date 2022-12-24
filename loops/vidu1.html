@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+      .spuare1{
+           
+           height: 20px;
+           width: 20px;
+           float: left;
+           border: 1px solid black;
+           background-color: red;
+           margin-left: 5px;
+           margin-bottom: 5px;
+       }
+       .spuare2{
+           
+           height: 20px;
+           width: 20px;
+           float: left;
+           border: 1px solid black;
+           background-color: blue;
+           margin-left: 5px;
+           margin-bottom: 5px;
+       }
+
+</style>
+  
+    <script>
+        for(i=0; i<5;i++){
+            for(j=0;j< 10;j++){
+                if(i%2==0){
+                    document.write("<div class = 'spuare1'></div>");
+                }else{
+                    document.write("<div class = 'spuare2'></div>");
+                }
+            }
+        document.write("<div style ='clear:both'></div>"); 
+        }
+        
+    </script>
+</body>
+</html>
